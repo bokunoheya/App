@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application12312</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Покровский колледж</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Абитуриент</string>
+    <string name="menu_gallery">Профиль</string>
+    <string name="menu_slideshow">Список учреждений</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="Name">Введите Имя</string>
+    <string name="SecondName">Фамилия</string>
+    <string name="ThirdName">Отчество</string>
+</resources>

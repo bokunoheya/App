@@ -15,4 +15,23 @@
     <string name="Name">Введите Имя</string>
     <string name="SecondName">Фамилия</string>
     <string name="ThirdName">Отчество</string>
+    <string name="Test">Пройти Тест</string>
+
+    <string name="ysht">Якутский сельскохозяйственный техникум</string>
+    <string name="CD">Якутский колледж технологии и дизайна традиционных промыслов народов Якутии</string>
+    <string name="CC">Якутский колледж культуры и искусств Республики Саха (Якутия)</string>
+    <string name="yipk">Якутский индустриально-педагогический колледж</string>
+    <string name="ykst">Якутский коммунально-строительный техникум</string>
+    <string name="ykse">Якутский колледж связи и энергетики имени П.И. Дудкина</string>
+    <string name="pokrovsk">Покровский колледж</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="YSHT">" ГБПОУ РС (Я) "\n"«Якутский сельскохозяйственный техникум»"</string>
+    <string name="YM">"Юридический адрес 677000, Республика Саха (Якутия), г. Якутск, ул. Пояркова, д. 15  "</string>
+    <string name="FM">Фактический адрес 677000, Республика Саха (Якутия), г. Якутск, ул. Пояркова, д. 15</string>
+    <string name="CN">Контактные телефоны: (4112) 34-11-35 (приемная директора), 34-13-76 (бухгалтерия), 34-11-94 (учебная часть), 34-18-95 (заочный отдел).</string>
+    <string name="EMail">Официальный сайт: <a href="http://ysxt.ru">http://ysxt.ru</a></string>
+    <string name="mail">Адрес электронной почты: ysxt@gov14.ru.</string>
+
 </resources>

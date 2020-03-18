@@ -45,10 +45,19 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.myapplication12312.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
     <activity
         android:id="@+id/mainActivity"
         android:name="com.example.myapplication12312.MainActivity"
         android:label="app_bar_main"
         tools:layout="@layout/app_bar_main" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.myapplication12312.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
 </navigation>

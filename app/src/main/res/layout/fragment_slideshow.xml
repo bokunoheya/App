@@ -8,29 +8,66 @@
     android:layout_height="match_parent"
     tools:context=".ui.slideshow.SlideshowFragment">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="269dp"
-        android:layout_height="256dp"
-        android:src="@drawable/backgr"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.126" />
-
-    <TextView
-        android:id="@+id/text_slideshow"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/ysht" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/CD" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/CC" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/yipk" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/ykst" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/ykse" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

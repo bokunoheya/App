@@ -10,48 +10,12 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <Button
-                android:id="@+id/button"
-                style="@style/buttonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:background="?attr/actionModeBackground"
-                android:text="@string/ysht" />
-
-            <Button
-                android:id="@+id/button3"
-                style="@style/buttonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:background="?attr/actionModeBackground"
-                android:text="@string/CD" />
-
-            <Button
-                android:id="@+id/button4"
-                style="@style/buttonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:background="?attr/actionModeBackground"
-                android:text="@string/CC" />
-
-            <Button
-                android:id="@+id/button5"
-                style="@style/buttonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:background="?attr/actionModeBackground"
-                android:text="@string/yipk" />
 
             <Button
                 android:id="@+id/button6"
@@ -68,6 +32,39 @@
                 android:layout_height="@dimen/heightList"
                 android:background="?attr/actionModeBackground"
                 android:text="@string/ykse" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/CC" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/ysht" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/yipk" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightList"
+                android:background="?attr/actionModeBackground"
+                android:text="@string/CD" />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

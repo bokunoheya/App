@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="com.example.myapplication12312.BlankFragment"/>
+        <activity android:name="com.example.myapplication12312.ui.gallery.GalleryFragment"/>
+        <activity android:name="com.example.myapplication12312.ui.gallery.GalleryViewModel"/>
+        <activity android:name="com.example.myapplication12312.ui.home.HomeFragment"/>
+        <activity android:name="com.example.myapplication12312.ui.home.HomeViewModel"/>
+        <activity android:name="com.example.myapplication12312.ui.slideshow.SlideshowFragment"/>
+        <activity android:name="com.example.myapplication12312.ui.slideshow.SlideshowViewModel"/>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.myapplication12312.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

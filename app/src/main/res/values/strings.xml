@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application12312</string>
+    <string name="app_name">Абитуриент</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Покровский колледж</string>
@@ -10,6 +10,7 @@
     <string name="menu_home">Абитуриент</string>
     <string name="menu_gallery">Профиль</string>
     <string name="menu_slideshow">Список учреждений</string>
+    <string name="menu_blank">О учреждении</string>
 
     <string name="home_second">Home Second</string>
     <string name="Name">Введите Имя</string>

@@ -28,6 +28,8 @@
     <style name="buttonStyle" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:background">@drawable/side_nav_bar</item>
         <item name="android:gravity">center</item>
+        <item name="android:paddingRight">25pt</item>
+        <item name="android:textColor">#FFF</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

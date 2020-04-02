@@ -17,6 +17,12 @@
         <action
             android:id="@+id/action_nav_home_to_nav_gallery"
             app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+        <action
+            android:id="@+id/action_nav_home_to_specialnosti2"
+            app:destination="@id/specialnosti2" />
     </fragment>
 
     <fragment
@@ -43,5 +49,37 @@
         android:id="@+id/blankFragment"
         android:name="com.example.myapplication12312.BlankFragment"
         android:label="@string/menu_blank"
-        tools:layout="@layout/fragment_blank" />
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_info_YSHT"
+            app:destination="@id/info_YSHT" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.myapplication12312.BlankFragment2"
+        android:label="@string/professii"
+        tools:layout="@layout/fragment_blank2" >
+        <action
+            android:id="@+id/action_blankFragment2_to_povar_college"
+            app:destination="@id/povar_college" />
+    </fragment>
+    <fragment
+        android:id="@+id/specialnosti2"
+        android:name="com.example.myapplication12312.Specialnosti"
+        android:label="fragment_spec"
+        tools:layout="@layout/fragmentse" />
+    <fragment
+        android:id="@+id/povar_college"
+        android:name="com.example.myapplication12312.Povar_college"
+        android:label="fragment_povar_college"
+        tools:layout="@layout/fragment_povar_college" >
+        <action
+            android:id="@+id/action_povar_college_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/info_YSHT"
+        android:name="com.example.myapplication12312.ui.slideswhow.Info_YSHT.Info_YSHT"
+        android:label="info__y_s_h_t_fragment"
+        tools:layout="@layout/info__y_s_h_t_fragment" />
 </navigation>

@@ -9,9 +9,35 @@
     tools:context=".ui.home.HomeFragment">
 
     <Button
+        android:id="@+id/professii"
+        style="@style/TextApp"
+        android:layout_width="@dimen/shirina_main"
+        android:layout_height="73dp"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/professii"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <Button
+        android:id="@+id/specialnosti"
+        style="@style/TextApp"
+        android:layout_width="@dimen/shirina_main"
+        android:layout_height="73dp"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/specialnosti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <Button
         android:id="@+id/button2"
         style="@style/TextApp"
-        android:layout_width="259dp"
+        android:layout_width="@dimen/shirina_main"
         android:layout_height="73dp"
         android:background="?attr/selectableItemBackground"
         android:text="@string/Test"
@@ -19,6 +45,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481" />
+        app:layout_constraintVertical_bias="0.139" />
+
+    <Button
+        android:id="@+id/spis_uch"
+        style="@style/TextApp"
+        android:layout_width="@dimen/shirina_main"
+        android:layout_height="73dp"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/menu_slideshow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/profile"
+        style="@style/TextApp"
+        android:layout_width="@dimen/shirina_main"
+        android:layout_height="73dp"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/menu_gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

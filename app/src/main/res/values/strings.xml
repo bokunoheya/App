@@ -34,5 +34,13 @@
     <string name="CN">Контактные телефоны: (4112) 34-11-35 (приемная директора), 34-13-76 (бухгалтерия), 34-11-94 (учебная часть), 34-18-95 (заочный отдел).</string>
     <string name="EMail">Официальный сайт: <a href="http://ysxt.ru">http://ysxt.ru</a></string>
     <string name="mail">Адрес электронной почты: ysxt@gov14.ru.</string>
+    <string name="professii">Профессии</string>
+    <string name="specialnosti">Специальности</string>
+    <string name="povar">Повар</string>
+    <string name="programmist">Программист</string>
+    <string name="P_hol">Повар холодного цеха</string>
+    <string name="P_gor">Повар горячего цеха</string>
+    <string name="pekar">Пекарь</string>
+    <string name="info">Информация</string>
 
 </resources>

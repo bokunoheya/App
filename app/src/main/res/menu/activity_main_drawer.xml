@@ -17,5 +17,14 @@
             android:id="@+id/nav_slideshow"
             android:icon="@android:drawable/ic_menu_sort_by_size"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/socGarant"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/menu_soc_gar" />
+        <item
+            android:id="@+id/blankFragment2"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/menu_pro" />
+        
     </group>
 </menu>

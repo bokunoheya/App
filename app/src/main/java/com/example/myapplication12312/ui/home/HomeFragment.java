@@ -18,7 +18,7 @@ Button test;
 Button profile;
 Button spis_uch;
 Button professii;
-Button specialnosti;
+//Button specialnosti;
     private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -30,12 +30,12 @@ Button specialnosti;
         profile= root.findViewById(R.id.profile);
         spis_uch= root.findViewById(R.id.spis_uch);
         professii= root.findViewById(R.id.professii);
-        specialnosti= root.findViewById(R.id.specialnosti);
+        //specialnosti= root.findViewById(R.id.specialnosti);
         test.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_slideshow));
         profile.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_gallery));
         spis_uch.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_slideshow));
         professii.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.blankFragment2));
-        specialnosti.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.specialnosti2));
+      //  specialnosti.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.specialnosti2));
         return root;
     }
 }

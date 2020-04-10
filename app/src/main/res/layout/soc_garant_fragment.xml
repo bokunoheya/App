@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frt"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
-    tools:context=".ui.slideshow.SlideshowFragment">
+    android:orientation="vertical"
+    tools:context="com.example.myapplication12312.ui.SocGarant" >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,56 +13,43 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <Button
-                android:id="@+id/button6"
-                style="@style/buttonStyle"
+                android:id="@+id/button16"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
-                android:text="@string/APT" />
+                android:text="@string/soc_gar_detyam_sir" />
 
             <Button
-                android:id="@+id/button7"
-                style="@style/buttonStyle"
+                android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
-                android:text="@string/MRTK" />
+                android:text="@string/gov_ac_st" />
 
             <Button
-                android:id="@+id/button4"
-                style="@style/buttonStyle"
+                android:id="@+id/button14"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
-                android:text="@string/CC" />
+                android:text="@string/mery_soc_pod" />
 
             <Button
-                android:id="@+id/button"
-                style="@style/buttonStyle"
+                android:id="@+id/button15"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
-                android:text="@string/college_PC" />
+                android:text="@string/pitanie" />
 
             <Button
-                android:id="@+id/button5"
-                style="@style/buttonStyle"
+                android:id="@+id/button13"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
-                android:text="@string/yipk" />
-
-            <Button
-                android:id="@+id/button3"
-                style="@style/buttonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:background="@drawable/fon_button2"
-                android:text="@string/CD" />
+                android:text="@string/gov_soc_st" />
         </LinearLayout>
     </ScrollView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

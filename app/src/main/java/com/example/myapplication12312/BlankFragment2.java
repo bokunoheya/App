@@ -10,8 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.myapplication12312.R;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link BlankFragment2#newInstance} factory method to
@@ -63,8 +61,8 @@ public class BlankFragment2 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_blank2, container, false);
-        Button povar= root.findViewById(R.id.povar) ;
-        povar.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_slideshow));
+        Button s20_01_10= root.findViewById(R.id.s20_01_10) ;
+        s20_01_10.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.specialnosti2));
         return root;
     }
 }

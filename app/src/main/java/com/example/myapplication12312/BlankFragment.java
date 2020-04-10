@@ -61,7 +61,7 @@ public class BlankFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root=  inflater.inflate(R.layout.fragment_blank, container, false);
+        View root=  inflater.inflate(R.layout.pc, container, false);
         Button info_button=root.findViewById(R.id.info_button);
         info_button.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.info_YSHT));
         return root;

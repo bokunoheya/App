@@ -21,8 +21,11 @@
             android:id="@+id/action_nav_home_to_blankFragment2"
             app:destination="@id/blankFragment2" />
         <action
-            android:id="@+id/action_nav_home_to_specialnosti2"
-            app:destination="@id/specialnosti2" />
+            android:id="@+id/action_nav_home_to_info_YSHT"
+            app:destination="@id/info_YSHT" />
+        <action
+            android:id="@+id/action_nav_home_to_socGarant"
+            app:destination="@id/socGarant" />
     </fragment>
 
     <fragment
@@ -49,25 +52,28 @@
         android:id="@+id/blankFragment"
         android:name="com.example.myapplication12312.BlankFragment"
         android:label="@string/menu_blank"
-        tools:layout="@layout/fragment_blank" >
-        <action
-            android:id="@+id/action_blankFragment_to_info_YSHT"
-            app:destination="@id/info_YSHT" />
-    </fragment>
+        tools:layout="@layout/pc" />
     <fragment
         android:id="@+id/blankFragment2"
         android:name="com.example.myapplication12312.BlankFragment2"
         android:label="@string/professii"
         tools:layout="@layout/fragment_blank2" >
         <action
-            android:id="@+id/action_blankFragment2_to_povar_college"
-            app:destination="@id/povar_college" />
+            android:id="@+id/action_blankFragment2_to_specialnosti2"
+            app:destination="@id/specialnosti2" />
     </fragment>
     <fragment
         android:id="@+id/specialnosti2"
         android:name="com.example.myapplication12312.Specialnosti"
-        android:label="fragment_spec"
-        tools:layout="@layout/fragmentse" />
+        android:label="@string/s21_01_10"
+        tools:layout="@layout/fragmentse" >
+        <action
+            android:id="@+id/action_specialnosti2_to_apt"
+            app:destination="@id/apt" />
+        <action
+            android:id="@+id/action_specialnosti2_to_mrtk"
+            app:destination="@id/mrtk" />
+    </fragment>
     <fragment
         android:id="@+id/povar_college"
         android:name="com.example.myapplication12312.Povar_college"
@@ -82,4 +88,59 @@
         android:name="com.example.myapplication12312.ui.slideswhow.Info_YSHT.Info_YSHT"
         android:label="info__y_s_h_t_fragment"
         tools:layout="@layout/info__y_s_h_t_fragment" />
+    <fragment
+        android:id="@+id/apt"
+        android:name="com.example.myapplication12312.Apt"
+        android:label="@string/APT"
+        tools:layout="@layout/apt" />
+    <fragment
+        android:id="@+id/mrtk"
+        android:name="com.example.myapplication12312.Mrtk"
+        android:label="@string/MRTK" />
+    <fragment
+        android:id="@+id/socGarant"
+        android:name="com.example.myapplication12312.ui.SocGarant"
+        android:label="@string/soc_garant"
+        tools:layout="@layout/soc_garant_fragment" >
+        <action
+            android:id="@+id/action_socGarant_to_soc_gar_child"
+            app:destination="@id/soc_gar_child" />
+        <action
+            android:id="@+id/action_socGarant_to_pitanie"
+            app:destination="@id/pitanie" />
+        <action
+            android:id="@+id/action_socGarant_to_govAcSt"
+            app:destination="@id/govAcSt" />
+        <action
+            android:id="@+id/action_socGarant_to_merySocPod"
+            app:destination="@id/merySocPod" />
+        <action
+            android:id="@+id/action_socGarant_to_govSocSt"
+            app:destination="@id/govSocSt" />
+    </fragment>
+    <fragment
+        android:id="@+id/soc_gar_child"
+        android:name="com.example.myapplication12312.Soc_gar_child"
+        android:label="@string/soc_gar_detyam_sir"
+        tools:layout="@layout/fragment_soc_gar_child" />
+    <fragment
+        android:id="@+id/pitanie"
+        android:name="com.example.myapplication12312.pitanie"
+        android:label="@string/pitanie"
+        tools:layout="@layout/fragment_pitanie" />
+    <fragment
+        android:id="@+id/govAcSt"
+        android:name="com.example.myapplication12312.GovAcSt"
+        android:label="@string/gov_ac_st"
+        tools:layout="@layout/fragment_gov_ac_st" />
+    <fragment
+        android:id="@+id/merySocPod"
+        android:name="com.example.myapplication12312.MerySocPod"
+        android:label="@string/mery_soc_pod"
+        tools:layout="@layout/fragment_mery_soc_pod" />
+    <fragment
+        android:id="@+id/govSocSt"
+        android:name="com.example.myapplication12312.GovSocSt"
+        android:label="@string/gov_soc_st"
+        tools:layout="@layout/fragment_gov_soc_st" />
 </navigation>

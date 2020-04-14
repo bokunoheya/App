@@ -62,6 +62,11 @@
     <string name="MRTK">ГАПОУ РС (Я) "Региональный технический колледж в г. Мирном"</string>
     <string name="UTYK">ГАПОУ РС(Я) \"Южно-Якутский технологический колледж\"</string>
 
+    <string name="APT_mini">"Алданский политехнический техникум"</string>
+    <string name="MRTK_mini">"Региональный технический колледж в г. Мирном"</string>
+    <string name="UTYK_mini">"Южно-Якутский технологический колледж"</string>
+    <string name="PC_mini">"Покровский колледж"</string>
+
     <string name="college_APT">ГАПОУ РС (Я) «АЛДАНСКИЙ ПОЛИТЕХНИЧЕСКИЙ ТЕХНИКУМ»</string>
     <string name="adress_APT">678901 Республика Саха (Якутия),  г. Алдан, ул. Ленина, д. 36</string>
     <string name="phone_APT">" тел/факс: 8 (41145) 3-31-09, 3-57-89"</string>

@@ -92,7 +92,11 @@
         android:id="@+id/apt"
         android:name="com.example.myapplication12312.Apt"
         android:label="@string/APT"
-        tools:layout="@layout/apt" />
+        tools:layout="@layout/apt" >
+        <action
+            android:id="@+id/action_apt_to_blankFragment3"
+            app:destination="@id/blankFragment3" />
+    </fragment>
     <fragment
         android:id="@+id/mrtk"
         android:name="com.example.myapplication12312.Mrtk"
@@ -143,4 +147,9 @@
         android:name="com.example.myapplication12312.GovSocSt"
         android:label="@string/gov_soc_st"
         tools:layout="@layout/fragment_gov_soc_st" />
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.example.myapplication12312.BlankFragment3"
+        android:label="fragment_blank3"
+        tools:layout="@layout/fragment_blank3" />
 </navigation>

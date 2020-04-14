@@ -8,4 +8,5 @@
     <dimen name="heightList">150dp</dimen>
     <dimen name="shirina_main">300dp</dimen>
     <dimen name="buttonHeight">100dp</dimen>
+    <dimen name="logo_list">100dp</dimen>
 </resources>

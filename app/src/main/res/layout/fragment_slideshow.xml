@@ -17,21 +17,91 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button6"
-                style="@style/buttonStyle"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:background="@drawable/fon_button2"
-                android:text="@string/APT" />
+                android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/button7"
-                style="@style/buttonStyle"
+                <Button
+                    android:id="@+id/button6"
+                    style="@style/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="?attr/colorButtonNormal"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="@dimen/logo_list"
+                    android:layout_height="@dimen/logo_list"
+                    android:layout_marginStart="16dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/logo_apt"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintStart_toStartOf="@+id/button6"
+                    app:layout_constraintTop_toTopOf="@+id/button6" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/buttonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/logo_list"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="0.1"
+                    android:elevation="2dp"
+                    android:text="@string/APT_mini"
+                    app:layout_constraintBottom_toBottomOf="@+id/button6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/button6" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heightList"
-                android:background="@drawable/fon_button2"
-                android:text="@string/MRTK" />
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <Button
+                    android:id="@+id/button7"
+                    style="@style/buttonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/heightList"
+                    android:background="?attr/colorButtonNormal"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="@dimen/logo_list"
+                    android:layout_height="@dimen/logo_list"
+                    android:layout_marginStart="16dp"
+                    android:elevation="2dp"
+                    android:src="@drawable/logo_mrtk"
+                    app:layout_constraintBottom_toBottomOf="@+id/button7"
+                    app:layout_constraintStart_toStartOf="@+id/button7"
+                    app:layout_constraintTop_toTopOf="@+id/button7" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    style="@style/buttonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/logo_list"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="0.1"
+                    android:elevation="2dp"
+                    android:text="@string/MRTK_mini"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/button7"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/imageView10"
+                    app:layout_constraintTop_toTopOf="@+id/button7" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <Button
                 android:id="@+id/button4"
@@ -39,7 +109,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
-                android:text="@string/CC" />
+                android:text="@string/UTYK_mini" />
 
             <Button
                 android:id="@+id/button"
@@ -47,7 +117,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
-                android:text="@string/college_PC" />
+                android:text="@string/PC_mini" />
 
             <Button
                 android:id="@+id/button5"
@@ -64,6 +134,7 @@
                 android:layout_height="@dimen/heightList"
                 android:background="@drawable/fon_button2"
                 android:text="@string/CD" />
+
         </LinearLayout>
     </ScrollView>
 
